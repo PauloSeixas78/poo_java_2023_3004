@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PupFeeder</string>
+    <string name="activity_cadastro_agendamento_descricao">Descrição</string>
+    <string name="activity_cadastro_agendamento_horario">Horário</string>
+    <string name="activity_cadastro_agendamento_frequencia">Frequência</string>
+    <string-array name="activity_cadastro_agendamento_frequencia_lista">
+        <item>Diariamente</item>
+        <item>Hoje</item>
+        <item>Fins de semana</item>
+        <item>Segunda a sexta</item>
+    </string-array>
+    <string name="activity_cadastro_agendamento_dispositivo">Dispositivo</string>
+    <string-array name="activity_cadastro_agendamento_dispositivo_lista">
+        <item>Nenhum</item>
+    </string-array>
+    <string name="activity_cadastro_agendamento_salvar">Salvar</string>
+</resources>
