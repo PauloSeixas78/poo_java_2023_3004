@@ -9,6 +9,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PupFeeder">
         <activity
+            android:name=".Tela_Cadastro_Racoes"
+            android:exported="false" />
+        <activity
+            android:name=".TelaListaRacoes"
+            android:exported="false" />
+        <activity
             android:name=".TelaListagemAgendamento"
             android:exported="false" />
         <activity
