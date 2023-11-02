@@ -3,6 +3,7 @@ package com.example.pupfeeder;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.ContentValues;
+import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
@@ -54,5 +55,13 @@ public class Tela_Cadastro_Racoes extends AppCompatActivity {
             Toast.makeText(this,"Erro ao salvar racao",Toast.LENGTH_SHORT);
         }
 
+        startActivity(new Intent(Tela_Cadastro_Racoes.this,TelaListaRacoes.class));
+
     }
+    @Override
+    protected void onDestroy(){
+        helper.close();
+        super.onDestroy();
+    }
+
 }
